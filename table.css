@@ -1,0 +1,169 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: white;
+    padding: 10px;
+    padding-left: 70px;
+    height: 100vh;
+}
+
+.div-header {
+    margin: 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: yellow;
+    max-width: max-content;
+    margin: 0 auto;
+    font-size: 1.5em;
+    padding: 20px;
+    font-family: cursive;
+    border-radius: 20px;
+    font-weight: 900;
+    color: black;
+}
+
+.pertama, .kedua {
+    /* border: 1px red solid; */
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    /* position: relative; */
+}
+
+table {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.grand-final {
+    position: absolute;
+    left: 1300px;
+}
+
+
+
+td {
+    /* border: 1px solid orange; */
+    background-color: white;
+    color: black;
+    display: inline-block;
+    height: 80px;
+    padding: 5px;
+    width: 100px;
+    /* margin: 10px; */
+}
+
+td p {
+    color: black;
+    vertical-align: middle;
+    font-size: 0.8em;
+}
+
+.score-win {
+    background-color: rgb(255, 217, 0);
+    width: 50px;
+    text-align: center;
+}
+
+.score-lost {
+    background-color: rgb(162, 162, 162);
+    width: 50px;
+    text-align: center;
+}
+
+
+
+._19-okt {
+    max-height: 300px;
+    /* position: relative; */
+    display: inline-block;
+    width: max-content;
+}
+
+.panah {
+    display: inline-block;
+    position: relative;
+    top: -100px;
+
+}
+
+.panah-img {
+    /* line-height: 300px; */
+    width: 60px;
+    
+    /* margin: auto */
+    rotate: 135deg;
+    
+}
+
+.lower-bracket {
+    padding-left: 500px;
+}
+
+.upper-bracket h1 {
+    margin: 0;
+    padding-left: 300px;
+    /* display: inline-block; */
+}
+
+.lower-bracket h1 {
+    padding-left: 300px;
+    margin: 0;
+    
+}
+
+
+
+.final-upper-bracket {
+    display: inline;
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 120px;
+}
+
+.final-upper-bracket-h1 {
+    color: black;
+}
+
+.final-upper-bracket h1 {
+    top: -70px;
+    position: relative;
+    /* padding-top: -10px; */
+    padding-left: 0;
+    left: -50px;
+    /* padding-bottom: 50px; */
+}
+
+.final-upper-bracket-panah-atas {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    rotate: 45deg;
+}
+
+.final-upper-bracket-panah-bawah {
+    position: absolute;
+    top: 370px;
+    left: 50px;
+    rotate: -45deg;
+}
+
+.line {
+    border-top: 5px solid black;
+    width: 69%;
+}
+
+.grand-final {
+    top: 600px;
+    left: 1390PX;
+}
+
+.grand-final h1 {
+    position: absolute;
+    left: -200px;
+    top: -50px;
+}
